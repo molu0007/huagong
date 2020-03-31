@@ -3,6 +3,7 @@ package com.molu.administrator.demo;
 public class Haple {
     public static boolean funtion(float l,float tsr,float nir){
         boolean isTsrResult=false;
+        //
         boolean isNirResult=false;
         if (l<=40){//低明度
             if (tsr>=0.25f){//tsr通过
